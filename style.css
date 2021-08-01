@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fcde7e;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 450px;
+    height: 600px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 75px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+    transition: all 1.5s ease 0s;
+  }
+  
+  .card_money {
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+    color: green;
+  }
+  
+  .smoke {
+    margin-right: 20px;
+  }
+  
+  .bronze {
+    width: 160px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url(image/cup-bronze.png);
+    background-size: cover;
+  }
+  
+  .silver {
+    width: 160px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url(image/cup-silver.png);
+    background-size: cover;
+  }
+  
+  .gold {
+    width: 160px;
+    height: 90px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-image: url(image/cup-gold.png);
+    background-size: cover;
+  }
+  
+  .leveling {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .card_name {
+    color: black;
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-right: 20px;
+  }
+  
+  .card_text {
+    width: 52%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+  }
+  
+  .card_link {
+    text-decoration: none;
+  }
+  @media (max-width: 375px) {
+    body {
+      flex-direction: column;
+      padding: 0px;
+      margin: 0px;
+    }
+    .card {
+      width: 300px;
+      height: 500px;
+      padding: 0px;
+      margin-left: 35px;
+  }
+  .card:first-child {
+    margin-top: 50px;
+  }
+  .bronze {
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .silver {
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .gold {
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .leveling {
+    margin-bottom: 11px;
+    margin-left: 50px;
+    transform: scale(1.1);
+  }
+  .card_name {
+      margin-bottom: 10px ;
+      margin-right: 15px;
+  }
+  .card_text {
+      width: 80%;
+  }
+}
+    
