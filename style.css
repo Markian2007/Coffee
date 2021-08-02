@@ -8,16 +8,15 @@
     background-color: #fcde7e;
     display: flex;
     justify-content: center;
+    padding-top: 200px;
   }
   
   .card {
-    width: 450px;
-    height: 600px;
     background-color: white;
     border-radius: 5px;
-    margin-right: 75px;
-    margin-top: 150px;
+    margin-right: 150px;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
   }
@@ -30,21 +29,19 @@
   .card_money {
     font-size: 70px;
     font-weight: 700;
-    padding-top: 30px;
-    padding-right: 15px;
-    padding-bottom: 40px;
+    padding: 30px 15px 40px 0px;
     color: green;
   }
   
   .smoke {
-    margin-right: 20px;
+    padding: 0px 20px 10px 0px;
   }
   
   .bronze {
     width: 160px;
     height: 90px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     background-image: url(image/cup-bronze.png);
     background-size: cover;
   }
@@ -52,8 +49,8 @@
   .silver {
     width: 160px;
     height: 90px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     background-image: url(image/cup-silver.png);
     background-size: cover;
   }
@@ -61,8 +58,8 @@
   .gold {
     width: 160px;
     height: 90px;
-    margin-top: 30px;
-    margin-bottom: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     background-image: url(image/cup-gold.png);
     background-size: cover;
   }
@@ -76,8 +73,8 @@
     color: black;
     font-size: 56px;
     font-weight: 400;
-    margin-bottom: 30px;
-    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
   }
   
   .card_text {
@@ -86,6 +83,7 @@
     color: black;
     font-size: 30px;
     font-weight: 100;
+    padding-bottom: 15px;
   }
   
   .card_link {
@@ -100,11 +98,11 @@
     .card {
       width: 300px;
       height: 500px;
-      padding: 0px;
       margin-left: 35px;
   }
   .card:first-child {
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   .bronze {
     padding-top: 0px;
@@ -126,12 +124,9 @@
     margin-left: 50px;
     transform: scale(1.1);
   }
-  .card_name {
-      margin-bottom: 10px ;
-      margin-right: 15px;
-  }
   .card_text {
       width: 80%;
+      padding-bottom: 15px;
   }
 }
     
